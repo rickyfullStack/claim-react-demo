@@ -1,5 +1,9 @@
+import Input from "./components/Input";
+
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <Input id="name" label="Name" type="text" placeholder="Enter your name" />
+  );
 }
 
 export default App;
